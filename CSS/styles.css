@@ -92,13 +92,20 @@ a:hover{
     float: left;
     margin-right: 50px;
     
-    width: 25%;
+    width: 30%;
 }
 .gaming2{
     float: right;
     margin-right: 50px;
     
-    width: 25%;
+    width: 30%;
+}
+.gaming3{
+    float: left;
+    margin-right: 50px;
+    
+    width: 30%;
+
 }
 .intro{
     width: 30%;
@@ -140,6 +147,7 @@ hr{
     text-align: center;
     margin-bottom: 100px;
  }
+
  
  .btn:hover {
     border: solid #337FED 1px;
@@ -154,3 +162,19 @@ hr{
     border-radius: 100px;
     text-decoration: none;
  }
+ .btn1 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: var(--globalSecondaryFont,"Montserrat"),sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #7fa650;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    background: #95bb4a;
+    text-decoration: none;
+  }
